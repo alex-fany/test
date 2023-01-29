@@ -1,24 +1,26 @@
-/*******************PRESENTACI”N*******************
-NOMBRE: Alejandra EstefanÌa MartÌnez MuÒoz
+/*******************PRESENTACI√ìN*******************
+NOMBRE: Alejandra Estefan√≠a Mart√≠nez Mu√±oz
 FECHA: 25 de enero de 2023
 PROGRAMA: actividad2.cpp
 CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
-INGENIERÕA EN COMPUTACI”N / 2DO SEMESTRE
+INGENIER√çA EN COMPUTACI√ìN / 2DO SEMESTRE
 PROFESOR: Carlos Javier Cruz Franco
-DESCRIPCI”N: 
+DESCRIPCI√ìN: Crear programa usando caracteres de escape y cadenas de control
 **************************************************/ 
-#include <stdio.h>
+#include <stdio.h> //Agrega librer√≠a
 
 int main () { //Programa principal
 
-	//DefiniciÛn de variables
-	int a;
+	//Definici√≥n de variables
+	int a, b;
 
 	//Solicitud de datos
-	printf( "Hola, quÈ tal? :)\n" );
+	printf( "Hola, qu√© tal\? :)\n" );
 	printf( "cuantos anos tienes?\n" );
 	scanf( "%d", &a );
-	printf( "puto\a");
-	
+	printf( "qu√© muchos\a \n");
+	printf( "Esta l√≠nea no se va a ver porque le puse return\r");
+	printf( "pon tu a√±o de nacimiento y el a√±o actual y te dir√© cuantos a√±os tienes\n");
+	scanf( "%
 	return 0;
 }
